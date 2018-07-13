@@ -1,3 +1,6 @@
+
+##### Don't use. Work has not begun on porting this to Openstack yet
+
 # packet-terraform
 Terraform scripts for packet.net
 
