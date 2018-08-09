@@ -1,4 +1,3 @@
-
 # packet_api_key = ""
 
 # packet_project_id = ""
@@ -15,9 +14,9 @@ dcos_cluster_name = "packet-dcos"
 
 dcos_master_count = "3"
 
-dcos_agent_count = "4"
+dcos_agent_count = "2"
 
-dcos_public_agent_count = "3"
+dcos_public_agent_count = "2"
 
 # dcos_installer_url = "https://downloads.dcos.io/dcos/EarlyAccess/dcos_generate_config.sh"
 
