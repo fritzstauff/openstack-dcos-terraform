@@ -215,6 +215,10 @@ resource "null_resource" "master_bootstrap" {
   #}
 
   provisioner "local-exec" {
+    command = "echo ${format("MASTER_%02d", count.index)}=\"${self.ipv4_address}\" >> ips.txt"
+  }
+
+  provisioner "local-exec" {
     command = "while [ ! -f ./do-install.sh ]; do sleep 1; done"
   }
 

@@ -13,9 +13,8 @@ master_list:
 - $MASTER_00
 - $MASTER_01
 - $MASTER_02
-- $MASTER_03
-- $MASTER_04
 resolvers: 
+- 169.254.169.253
 - 8.8.4.4
 - 8.8.8.8
 FIN
